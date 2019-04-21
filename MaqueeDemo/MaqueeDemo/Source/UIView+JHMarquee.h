@@ -1,0 +1,19 @@
+//
+//  UIView+JHMarquee.h
+//  MaqueeDemo
+//
+//  Created by 陈逸辰 on 2019/4/16.
+//  Copyright © 2019 陈逸辰. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface UIView (JHMarquee)
+
+- (UIView *)copyMarqueeView;
+
+@end
+
+NS_ASSUME_NONNULL_END

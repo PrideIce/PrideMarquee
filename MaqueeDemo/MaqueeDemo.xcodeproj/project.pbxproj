@@ -13,6 +13,8 @@
 		F8E3C97D226604BA00638E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E3C97C226604BA00638E36 /* Assets.xcassets */; };
 		F8E3C980226604BA00638E36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E3C97E226604BA00638E36 /* LaunchScreen.storyboard */; };
 		F8E3C983226604BA00638E36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E3C982226604BA00638E36 /* main.m */; };
+		F8E3C98C2266068E00638E36 /* JHMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E3C98B2266068E00638E36 /* JHMarqueeView.m */; };
+		F8E3C98F226607EC00638E36 /* UIView+JHMarquee.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E3C98E226607EC00638E36 /* UIView+JHMarquee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		F8E3C97F226604BA00638E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8E3C981226604BA00638E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8E3C982226604BA00638E36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8E3C98A2266068E00638E36 /* JHMarqueeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHMarqueeView.h; sourceTree = "<group>"; };
+		F8E3C98B2266068E00638E36 /* JHMarqueeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHMarqueeView.m; sourceTree = "<group>"; };
+		F8E3C98D226607EC00638E36 /* UIView+JHMarquee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JHMarquee.h"; sourceTree = "<group>"; };
+		F8E3C98E226607EC00638E36 /* UIView+JHMarquee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHMarquee.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		F8E3C972226604B900638E36 /* MaqueeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F8E3C9892266050000638E36 /* Source */,
 				F8E3C973226604B900638E36 /* AppDelegate.h */,
 				F8E3C974226604B900638E36 /* AppDelegate.m */,
 				F8E3C976226604B900638E36 /* ViewController.h */,
@@ -69,6 +76,17 @@
 				F8E3C982226604BA00638E36 /* main.m */,
 			);
 			path = MaqueeDemo;
+			sourceTree = "<group>";
+		};
+		F8E3C9892266050000638E36 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F8E3C98A2266068E00638E36 /* JHMarqueeView.h */,
+				F8E3C98B2266068E00638E36 /* JHMarqueeView.m */,
+				F8E3C98D226607EC00638E36 /* UIView+JHMarquee.h */,
+				F8E3C98E226607EC00638E36 /* UIView+JHMarquee.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +162,8 @@
 				F8E3C978226604B900638E36 /* ViewController.m in Sources */,
 				F8E3C983226604BA00638E36 /* main.m in Sources */,
 				F8E3C975226604B900638E36 /* AppDelegate.m in Sources */,
+				F8E3C98C2266068E00638E36 /* JHMarqueeView.m in Sources */,
+				F8E3C98F226607EC00638E36 /* UIView+JHMarquee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
